@@ -1,0 +1,97 @@
+.signup-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0e5ec;
+    font-family: Arial, sans-serif;
+}
+
+.neumorphic {
+    border-radius: 20px;
+    background: #e0e5ec;
+    box-shadow:  10px 10px 20px #a3b1c6,
+                 -10px -10px 20px #ffffff;
+}
+
+.neumorphic-inset {
+    background: #e0e5ec;
+    border-radius: 20px;
+    box-shadow: inset 10px 10px 20px #a3b1c6,inset -10px -10px 20px #ffffff;
+}
+.neumorphic-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+}
+
+.neumorphic-input{
+    color: #6d7582;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    width: 90%;
+    margin-bottom: 25px;
+}
+.neumorphic-input::placeholder{
+    color: #a3b1c6;
+}
+.neumorphic-button{
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #6d7582;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.neumorphic-button:active{
+    box-shadow: inset 5px 5px 10px #a3b1c6,inset -5px -5px 10px #ffffff;
+}
+.name-container{
+      
+    
+    width: 100%;
+        
+}
+
+   
+
+
+.icon{
+   margin-left: -40px; 
+   cursor: pointer;
+    
+}
+.password input{
+    color: #6d7582;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    width: 90%;
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
+.password{
+  
+      position: relative;
+}
+.password span{
+    align-content: center;
+    padding-bottom: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 50px;
+    margin-top: 20px;
+
+}
+
