@@ -10,6 +10,9 @@ A full-stack clone of Airbnb built using the **MERN stack** (MongoDB, Express, R
 ![Airbnb Clone Screenshot](./screenshot.png)
 
 ---
+
+![image](https://github.com/user-attachments/assets/892afdf2-6d6d-408a-89f1-1d0270dcb3e5)
+
     ![](image.png) 
     ![](image-1.png)
     ![](image-2.png)
